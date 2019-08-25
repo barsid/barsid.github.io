@@ -28,7 +28,7 @@ function init() {
     var mapElement = document.getElementById('fh5co-map');
 
     // Create the Google Map using out element and options defined above
-    var map = new google.maps.Map(mapElement, mapOptions);
+    var map = new google.maps.Map(document.getElementById('fh5co-map'), mapOptions);
     
     var addresses = ['Megamendung'];
 
